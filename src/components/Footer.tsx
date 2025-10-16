@@ -1,4 +1,4 @@
-import { Linkedin, Github, Mail, MessageCircle } from "lucide-react";
+import { Instagram, Github, Mail, MessageCircle } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -50,16 +50,16 @@ Saya Desainer Web & Pengembang Web yang bantu bisnis bikin pengalaman brand yang
           <div>
             <h4 className="text-lg font-semibold mb-4">Connect</h4>
             <div className="flex gap-4">
-              {/* <a
-                href="https://linkedin.com"
+              <a
+                href="https://instagram.com/arahcreativee"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-10 h-10 rounded-lg bg-card hover:bg-primary/20 transition-all duration-300 hover:-translate-y-1 border border-border/50 hover:border-primary"
-                aria-label="LinkedIn"
+                aria-label="Instagram"
               >
-                <Linkedin className="w-5 h-5 text-primary" />
+                <Instagram className="w-5 h-5 text-primary" />
               </a>
-              <a
+              {/* <a
                 href="https://github.com"
                 target="_blank"
                 rel="noopener noreferrer"

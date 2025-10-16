@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import logoImage from "../assets/arah creative logo.png";
 
 export const Navbar = ({menuOpen, setMenuOpen})=>{
         useEffect(()=>{
